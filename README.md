@@ -1,12 +1,24 @@
-# Conduit's Bootstrap [(see it live on GH pages)](http://gothinkster.github.io/conduit/)
+# SCSS files for [gothinkster/vue-realworld-example-app](https://github.com/gothinkster/vue-realworld-example-app)
+
+Demo: [https://vue-vuex-realworld.netlify.com]
+
 
 1. Pull repo
-2. Update bootstrap submodule
 ```
-$ git submodule update --init --recursive
+$ git clone https://github.com/tecfu/conduit-bootstrap-template
 ```
-3. npm install
-4. Run `gulp`
 
----
-Livereload server will run on localhost:8000
+2. 
+```
+$ npm install
+```
+
+3. 
+```
+$ gulp
+```
+
+### Note:
+
+- Livereload server will run on localhost:8000
+- Created because upstream doesn't work with current demo and is not maintained
